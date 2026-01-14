@@ -1,0 +1,22 @@
+# --- vcpkg (vollst‰ndig ausschlieﬂen) ---
+vcpkg/
+**/vcpkg/
+
+# --- Visual Studio / VS Code / VSIX ---
+.vs/
+.vscode/
+*.vsix
+
+# --- Build-Artefakte ---
+build/
+out/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
